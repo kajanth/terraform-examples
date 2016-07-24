@@ -1,4 +1,4 @@
-resource "aws_security_group" "tools" {
+resource "aws_security_group" "vpc" {
     name = "tools"
     description = "tools security group"
     vpc_id      = "${aws_vpc.vpc.id}"
