@@ -1,6 +1,6 @@
 # terraform
 
-## These terraform examples are not operation grade!
+## Samples of terraform resources to be used as baseline for Terraform demos.
 
 Create credentials.tfvars file in the root of this repo and add AWS access keys.
 
