@@ -1,7 +1,7 @@
 resource "aws_security_group" "main" {
     name = "tools"
     description = "tools security group"
-    vpc_id      = "${aws_vpc.main.id}"
+    vpc_id      = "${aws_vpc.public.id}"
 
     ingress {
         from_port       = 22

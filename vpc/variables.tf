@@ -25,6 +25,11 @@ variable "cidr_block" {
   default = "10.0.0.0/16"
 }
 
+variable "route_table_cidr" {
+  description = "The CIDR block of the route."
+  default = "0.0.0.0/0"
+}
+
 variable "amount_subnets" {
   description = "Amount of subnets required"
   default = "3"
